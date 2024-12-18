@@ -23,7 +23,7 @@ public class findlargernumber {
         return smallest;
     }
     public static void main(String[] args) {
-        int number[]= {44,55,66,1,2,8,99,24,26,93,3,89};
+        int number[]= {44,55,1,2,8,99,24,26,93,3,89};
         int result= largest(number);
         int result_small = small(number);
         System.out.println("this a largest value = " + result);
