@@ -13,7 +13,7 @@ public class foodmenu {
         return "This item not found";
     }
    public static void main(String[] args) {
-     String menu[] = {" pizza"," tea ", " fruits",};
+     String menu[] = {" pizza"," tea ", " fruits", " egg "};
     String odder = "pizza";
      String result = linersearch(menu, odder);
      System.out.println("this is your order " + result);
