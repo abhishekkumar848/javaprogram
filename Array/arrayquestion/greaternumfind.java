@@ -24,7 +24,7 @@ public class greaternumfind {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int number[] = {1,2,3,4,5,6,20,21,35,36,37,66,64};
+        int number[] = {1,2,3,4,5,6,20,21,35,36,66,64};
         System.out.print("Enter num  = ");
         int key = sc.nextInt();
         int result = greaters(number, key);
