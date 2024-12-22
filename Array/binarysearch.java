@@ -20,7 +20,7 @@ public class binarysearch {
     }
     public static void main(String[] args) {
         int number[]= {12,14,16,19,22,24,66,95};
-        int target = 14;
+        int target = 22;
         int result = search(number, target);
 
         System.out.println("ans = " +  result);
